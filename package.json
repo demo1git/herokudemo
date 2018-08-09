@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
 	"preinstall": "npm install express path http",
-	"postinstall": "ng build --aot --prod && mv dist/* ."
+	"postinstall": "ng build --aot --prod"
   },
   "engines": {
     "node": "9.5.0",
